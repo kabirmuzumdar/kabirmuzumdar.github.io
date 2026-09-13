@@ -11,20 +11,19 @@ window.PORTFOLIO = {
     // Example: "assets/img/profile/kabir.jpg". Leave blank to show initials.
     photo: "assets/img/profile/kabir-headshot.jpg",
     photoAlt: "Kabir Muzumdar",
-    headline: "Exploring computational mechanics, deployable structures, and fluid-structure interactions at The University of Texas at Austin.",
-    roles: ["Civil Engineering Student", "Researcher", "Computational Mechanics Enthusiast"],
+    headline: "Exploring computational mechanics, simulations, and research at The University of Texas at Austin.",
+    roles: ["Texas Engineer", "Researcher", "Computational Mechanics Enthusiast", "Collaborator"],
     email: "kabmuzum@utexas.edu",
     phone: "+1 832-541-4472",
     location: "Houston, TX",
     linkedin: "https://www.linkedin.com/in/kabir-muzumdar",
-    github: "https://github.com/k1llersw0rd",
-    website: "https://kabirmuzumdar.com/",
+    github: "https://github.com/kabirmuzumdar",
     cv: "assets/resume/Kabir_Muzumdar_CV.pdf"
   },
   about: {
     paragraphs: [
       "I'm an Engineering undergraduate at The University of Texas at Austin, pursuing a certificate in Computational Engineering & Science. My interests span computational mechanics, structural dynamics, fluid-structure interactions, mechanical metamaterials, and engineering simulation.",
-      "My research connects parametric modeling and simulation with deployable structures, origami-inspired materials, and hydrodynamics. I work on Origami Engineering, NASA Ames ISAM research, and an ARL:UT-supported computational hydrodynamics collaboration."
+      "My research connects parametric modeling and simulation with deployable structures, origami-inspired materials, and hydrodynamics. I work on Origami Engineering, NASA Ames In-space Assembly & Manufacturing (ISAM) research, and an ARL:UT-supported computational hydrodynamics collaboration."
     ],
   },
   research: [
@@ -122,6 +121,18 @@ window.PORTFOLIO = {
       tags: ["COMSOL Multiphysics", "Floquet-Bloch Theory", "Eigenfrequency Analysis", "Wave Propagation"],
       images: [],
       links: []
+    },
+    {
+      id: "starshade-print",
+      title: "Scaled Model of General Starshade Geometry",
+      summary: "Created and printed a scaled model of the Starshade concept.",
+      highlights: [
+        "Created a scaled physical model of a starshade for hoisting onto a laser vibrometer for dynamic testing and analysis.",
+        "Developed the parametric model and 3D-printed it along with a stand for attaching the print to the vibrometer."
+      ],
+      tags: ["COMSOL Multiphysics", "Design", "Dynamic Testing", "Model Fabrication"],
+      images: [ src: "assets/img/projects/starshadeSection.png", alt: "Starshade in Model Builder", caption: "Section cut of developed Starshade geometry." ],
+      links: []
     }
   ],
   skills: [
@@ -133,9 +144,9 @@ window.PORTFOLIO = {
     {
       school: "The University of Texas at Austin",
       degree: "Bachelor of Science, Civil Engineering",
-      certificate: "Computational Engineering & Science (CSE)",
+      certificate: "Computational Engineering & Science",
       dates: "August 2024 – May 2028",
-      coursework: ["Mechanics of Solids", "Structural Analysis", "Ocean Engineering"],
+      coursework: ["Mechanics of Solids", "Structural Analysis", "Fluid Mechanics", "Oceans/Offshore Engineering"],
       honors: ["Cockrell Distinguished Alumni Scholarship", "Distinguished Alumni Undergraduate Research Fellowship", "Halff Associates, Inc. Endowed Scholarship", "Linford Family Endowed Scholarship"]
     }
   ]

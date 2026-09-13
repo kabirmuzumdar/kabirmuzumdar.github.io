@@ -79,7 +79,7 @@ window.PORTFOLIO = {
       highlights: [
         "Supported by National Security Research SEED funding from ARL:UT and the UT Austin Office of the Vice President for Research."
       ],
-      tags: ["Computational Hydrodynamics", "Thruster Design", "National Security Research"],
+      tags: ["Computational Fluid Dynamics", "Fluid-Structure Interaction", "National Security Research"],
       images: [],
       links: []
     }

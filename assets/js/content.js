@@ -101,6 +101,7 @@ window.PORTFOLIO = {
       title: "Drone-based Evaluation of Damage on Structures & Roadways",
       summary: "Dataset preparation and evaluation for a collaborative roadway-inspection project using drone imagery.",
       highlights: [
+        "Collaboration between the Zornberg Geosynthetics Laboratory and the Sustainable Building Initiative at UT Austin.",
         "Evaluated crack classes, annotation quality, and drone-perspective variation in roadway-image datasets.",
         "Recommended image balance, hard-negative selection, dataset splits, and augmentation to reduce false detections."
       ],

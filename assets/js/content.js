@@ -131,7 +131,8 @@ window.PORTFOLIO = {
         "Developed the parametric model and 3D-printed it along with a stand for attaching the print to the vibrometer."
       ],
       tags: ["COMSOL Multiphysics", "Design", "Dynamic Testing", "Model Fabrication"],
-      images: [ src: "assets/img/projects/starshadeSection.png", alt: "Starshade in Model Builder", caption: "Section cut of developed Starshade geometry." ],
+      images: [ {src: "assets/img/projects/starshadeSection.png", alt: "Starshade in Model Builder", caption: "Section cut of developed Starshade geometry."}
+       ],
       links: []
     }
   ],

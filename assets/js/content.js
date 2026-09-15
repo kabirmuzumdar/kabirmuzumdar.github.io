@@ -135,12 +135,25 @@ window.PORTFOLIO = {
       images: [ {src: "assets/img/projects/starshadeSection.png", alt: "Starshade in Model Builder", caption: "Section cut of developed Starshade geometry."}
        ],
       links: []
+    },
+    {
+      id: "armadas-voxel",
+      title: "Model of the ARMADAS Cuboctohedral Voxel",
+      summary: "Recreation of the ARMADAS project's voxel created in Solidworks, 3D-Printed, and assembled.",
+      highlights: [
+        "Recreated the ARMADAS cuboctohedral voxel in Solidworks and 3D-printed it for assembly and testing.",
+        "Used this iteration of the voxel to validate strengths and build off of it for the voxel to be used in the 'Dynamically Stable Large Space Structures' project."
+      ],
+      tags: ["Solidworks", "Engineering Design", "Connection Logic", "Manufacturing Logic","Model Fabrication"],
+      images: [ {src: "assets/img/projects/armadas_voxel_solidworks.png", alt: "Voxel in Solidworks", caption: "ARMADAS Cuboctohedral voxel recreated in Solidworks."}
+       ],
+      links: []
     }
   ],
   skills: [
-    { title: "Simulation & Engineering Design", items: ["COMSOL Multiphysics", "SOLIDWORKS", "AutoCAD", "Fusion", "Revit", "Rhino"] },
+    { title: "Simulation & Engineering Design", items: ["COMSOL Multiphysics", "SOLIDWORKS", "AutoCAD", "Fusion", "Revit", "Rhino", "ANSYS Fluent", "FloatSoft"] },
     { title: "Programming & Tools", items: ["MATLAB", "Python", "Java", "Git", "GitHub", "LaTeX"] },
-    { title: "Technical Methods", items: ["Finite Element Analysis (FEA)", "Computational Mechanics", "Structural Analysis", "Computational Fluid Dynamics (CFD)", "CAD & Parametric Modeling", "Mechanical Design and Fabrication", "Laser Vibrometry"] }
+    { title: "Technical Methods", items: ["Finite Element Analysis (FEA)", "Computational Mechanics", "Structural Analysis", "Computational Fluid Dynamics (CFD)", "CAD & Parametric Modeling", "Mechanical Design and Fabrication", "Laser Vibrometry & Non-destructive Testing"] }
   ],
   education: [
     {

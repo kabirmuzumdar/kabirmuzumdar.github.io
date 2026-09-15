@@ -82,7 +82,7 @@
   const updateTyping = () => {
     if (typed) { typed.destroy(); typed = undefined; }
     const roles = list(profile.roles);
-    document.querySelector('.typing').textContent = roles[0] || 'Civil Engineering Student';
+    document.querySelector('.typing').textContent = roles[0] || 'Engineering Student';
     if (!motion.matches && typeof window.Typed === 'function' && roles.length > 1) {
       typed = new window.Typed('.typing', { strings: roles.map(escape), loop: true, typeSpeed: 80, backSpeed: 40, backDelay: 1600 });
     }

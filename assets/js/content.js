@@ -161,7 +161,6 @@ window.PORTFOLIO = {
       ],
       tags: ["MATLAB", "Structural Analysis", "Solid Mechanics"],
       images: [ {src: "assets/img/projects/bendingrigidity_viscoLayerLoc_plot.png", alt: "Bending Rigidity Analysis", caption: "Ideal layer location for maximum bending rigidity in a square-shaped multi-material plate."},
-        {src: "assets/img/projects/viscoLayerLoc_derivation.png", alt: "Bending Rigidity Derivation", caption: "Derivation of the ideal layer location for maximum bending rigidity."}
        ],
       links: []
     }

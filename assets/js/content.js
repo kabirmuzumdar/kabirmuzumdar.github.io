@@ -120,7 +120,9 @@ window.PORTFOLIO = {
         "Explored the effects of geometric parameters on bandgap formation and wave localization in the metasurface for computationally efficient analysis of deployable structures."
       ],
       tags: ["COMSOL Multiphysics", "Floquet-Bloch Theory", "Eigenfrequency Analysis", "Wave Propagation"],
-      images: [],
+      images: [
+        { src: "assets/img/projects/floquet-bloch_reshapedMiura.png", alt: "Floquet-Bloch Analysis", caption: "Reshaped and meshed Miura-ori unit cell for Floquet-Bloch analysis." }
+      ],
       links: []
     },
     {
@@ -146,6 +148,20 @@ window.PORTFOLIO = {
       ],
       tags: ["Solidworks", "Engineering Design", "Connection Logic", "Manufacturing Logic","Model Fabrication"],
       images: [ {src: "assets/img/projects/armadas_voxel_solidworks.png", alt: "Voxel in Solidworks", caption: "ARMADAS Cuboctohedral voxel recreated in Solidworks."}
+       ],
+      links: []
+    },
+    {
+      id: "bending-rigidity-matlab",
+      title: "Layer Location for Ideal Bending Rigidity in a Square-shaped Multi-material Plate",
+      summary: "Plot of the ideal layer location for a square-shaped multi-material plate to achieve maximum bending rigidity.",
+      highlights: [
+        "Derivation of the ideal layer location for a square-shaped multi-material plate to achieve maximum bending rigidity.",
+        "Results plotted and analyzed using MATLAB, with a focus on the effects of material properties and layer thickness on bending rigidity."
+      ],
+      tags: ["Solidworks", "Engineering Design", "Connection Logic", "Manufacturing Logic","Model Fabrication"],
+      images: [ {src: "assets/img/projects/bendingrigidity_viscoLayerLoc_plot.png", alt: "Bending Rigidity Analysis", caption: "Ideal layer location for maximum bending rigidity in a square-shaped multi-material plate."}
+        {src: "assets/img/projects/viscoLayerLoc_derivation.png", alt: "Bending Rigidity Derivation", caption: "Derivation of the ideal layer location for maximum bending rigidity."}
        ],
       links: []
     }

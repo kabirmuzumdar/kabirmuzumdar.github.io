@@ -149,7 +149,7 @@ window.PORTFOLIO = {
       tags: ["Solidworks", "Engineering Design", "Connection Logic", "Manufacturing Logic","Model Fabrication"],
       images: [ {src: "assets/img/projects/armadas_voxel_solidworks.png", alt: "Voxel in Solidworks", caption: "ARMADAS Cuboctohedral voxel recreated in Solidworks."}
        ],
-      links: []
+      links: [{ label: "ARMADAS Project", url: "https://www.nasa.gov/automated-reconfigurable-mission-adaptive-digital-assembly-systems-armadas/" }]
     },
     {
       id: "bending-rigidity-matlab",
@@ -159,8 +159,8 @@ window.PORTFOLIO = {
         "Derivation of the ideal layer location for a square-shaped multi-material plate to achieve maximum bending rigidity.",
         "Results plotted and analyzed using MATLAB, with a focus on the effects of material properties and layer thickness on bending rigidity."
       ],
-      tags: ["Solidworks", "Engineering Design", "Connection Logic", "Manufacturing Logic","Model Fabrication"],
-      images: [ {src: "assets/img/projects/bendingrigidity_viscoLayerLoc_plot.png", alt: "Bending Rigidity Analysis", caption: "Ideal layer location for maximum bending rigidity in a square-shaped multi-material plate."}
+      tags: ["MATLAB", "Structural Analysis", "Solid Mechanics"],
+      images: [ {src: "assets/img/projects/bendingrigidity_viscoLayerLoc_plot.png", alt: "Bending Rigidity Analysis", caption: "Ideal layer location for maximum bending rigidity in a square-shaped multi-material plate."},
         {src: "assets/img/projects/viscoLayerLoc_derivation.png", alt: "Bending Rigidity Derivation", caption: "Derivation of the ideal layer location for maximum bending rigidity."}
        ],
       links: []

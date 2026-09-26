@@ -173,11 +173,11 @@ window.PORTFOLIO = {
   education: [
     {
       school: "The University of Texas at Austin",
-      degree: "Bachelor of Science, Civil Engineering",
-      certificate: "Computational Engineering & Science",
+      degree: "B.S. CE",
+      certificate: "CSE",
       dates: "August 2024 – May 2028",
-      coursework: ["Mechanics of Solids", "Structural Analysis", "Fluid Mechanics", "Oceans/Offshore Engineering"],
-      honors: ["Cockrell Distinguished Alumni Scholarship", "Distinguished Alumni Undergraduate Research Fellowship", "Halff Associates, Inc. Endowed Scholarship", "Linford Family Endowed Scholarship"]
+      coursework: ["Mechanics of Solids", "Structural Analysis", "Fluid Mechanics", "Oceans/Offshore Engineering", "Computer and Numerical Methods"],
+      honors: ["Cockrell Distinguished Alumni Scholarship", "Distinguished Alumni Undergraduate Research Fellowship", "Halff Associates, Inc. Endowed Scholarship", "Linford Family Endowed Scholarship, University Honors"]
     }
   ]
 };

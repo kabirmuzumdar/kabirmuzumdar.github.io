@@ -31,7 +31,7 @@ window.PORTFOLIO = {
       id: "miura-origami-research",
       title: "Origami-Inspired Metasurface Research",
       subtitle: "Optimization of Damping Performance for an Origami-Inspired Metasurface",
-      organization: "The University of Texas at Austin",
+      organization: "UT Austin",
       role: "Undergraduate Research Assistant",
       mentor: "Othman Oudghiri-Idrissi",
       dates: "January 2025 – Present",
@@ -177,7 +177,7 @@ window.PORTFOLIO = {
       certificate: "CSE",
       dates: "August 2024 – May 2028",
       coursework: ["Mechanics of Solids", "Structural Analysis", "Fluid Mechanics", "Oceans/Offshore Engineering", "Computer and Numerical Methods"],
-      honors: ["Cockrell Distinguished Alumni Scholarship", "Distinguished Alumni Undergraduate Research Fellowship", "Halff Associates, Inc. Endowed Scholarship", "Linford Family Endowed Scholarship, University Honors"]
+      honors: ["Cockrell Distinguished Alumni Scholarship", "Distinguished Alumni Undergraduate Research Fellowship", "Halff Associates, Inc. Endowed Scholarship", "Linford Family Endowed Scholarship", "University Honors"]
     }
   ]
 };

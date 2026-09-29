@@ -157,7 +157,8 @@ window.PORTFOLIO = {
       summary: "Plot of the ideal layer location for a square-shaped multi-material plate to achieve maximum bending rigidity.",
       highlights: [
         "Derivation of the ideal layer location for a square-shaped multi-material plate to achieve maximum bending rigidity.",
-        "Results plotted and analyzed using MATLAB, with a focus on the effects of material properties and layer thickness on bending rigidity."
+        "Results plotted and analyzed using MATLAB, with a focus on the effects of material properties and layer thickness on bending rigidity.",
+        "Derivation: B(h_1) = 2L \\left[ E_1 \\int_{0}^{h_1} y^2 dy + E_2 \\int_{h_1}^{h_1+t} y^2 dy + E_1 \\int_{h_1+t}^{H} y^2 dy \\right], \\quad (6) B(h_1) = \\frac{2L}{3} \\left[ E_1 H^3 + (E_2 - E_1) (3h_1^2 t + 3h_1 t^2 + t^3) \\right]. \\quad (7) h_{1,v} = -\\frac{t}{2}. \\quad (8)"
       ],
       tags: ["MATLAB", "Structural Analysis", "Solid Mechanics"],
       images: [ {src: "assets/img/projects/bendingrigidity_viscoLayerLoc_plot.png", alt: "Bending Rigidity Analysis", caption: "Ideal layer location for maximum bending rigidity in a square-shaped multi-material plate."},
